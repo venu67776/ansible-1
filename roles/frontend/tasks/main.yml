@@ -9,7 +9,7 @@
     url: http://172.31.14.124:8081/repository/frontend/frontend-{{APP_VERSION}}.zip
     dest: /tmp/frontend.zip
     username: admin
-    password: admin123
+    password: admin
 
 - name: Delete the default content
   file:
